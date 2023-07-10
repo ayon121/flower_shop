@@ -13,6 +13,7 @@ body {
     border: none;
     border-radius: 8px;
     background-color: #E55473;
+    color: white;
 }
 /* banner styles */
 .banner {
@@ -190,6 +191,12 @@ body {
     padding-bottom: 20px;
 }
 
+.card:hover {
+    width: 310px;
+    height: 410px;
+    transition: 0.3s;
+}
+
 .card-image {
     width: 100%;
     border-top-left-radius: 20px;
@@ -213,7 +220,7 @@ body {
     border: 2px solid rgb(255, 3, 3);
     margin-top: -2px;
     color: white;
-    transition: 0.4;
+    transition: 0.4s;
 }
 
 /*Instagram section styles*/
