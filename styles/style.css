@@ -166,3 +166,52 @@ body {
     width: 300px;
     height: 400px;
 }
+
+/*** Bonus New Feature Styles ***/
+
+.section-description span {
+    color: red;
+}
+.shoping-cards {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+.card {
+    width: 300px;
+    height: 400px;
+    box-shadow: 4px 4px 4px 4px #E55473;
+    border-radius: 20px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.card-image {
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.card-title {
+    font-size: 30px;
+}
+
+.card_btn {
+    background: transparent;
+    margin-top: 10px;
+    padding: 5px 15px;
+    border: 2px solid  #E55473;
+    border-radius: 30px;
+}
+
+.card_btn:hover{
+    background-color: #E55473;
+    border: 2px solid rgb(255, 3, 3);
+    margin-top: -2px;
+    color: white;
+    transition: 0.4;
+}
