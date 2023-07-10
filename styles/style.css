@@ -215,3 +215,22 @@ body {
     color: white;
     transition: 0.4;
 }
+
+/*Instagram section styles*/
+.instagram {
+    margin-bottom: 30px;
+}
+.intagram-all-images {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+
+}
+.instagram-image img {
+    width: 250px;
+    height: 250px;
+
+}
