@@ -15,6 +15,13 @@ body {
     background-color: #E55473;
     color: white;
 }
+
+.btn-primary:hover {
+    padding: 12px 35px;
+    transition: 0.3s;
+}
+
+
 /* banner styles */
 .banner {
     height: 90vh;
