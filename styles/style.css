@@ -106,3 +106,20 @@ body {
     background: rgba(71, 125, 17, 0.15);
 
 }
+
+/* image names styles */
+.images-name {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
+
+.images-name h2 {
+    color: #272727;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration-line: underline;
+    margin-bottom: 30px;
+}
